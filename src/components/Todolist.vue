@@ -71,88 +71,97 @@ export default {
 <style scoped>
   .header{
     width: 100%;
-    text-align: center;
     background:black;
-    height: 50px;
-    line-height: 50px;
+    height:80px;
+    line-height: 80px;
   }
   .hader-h1{
     display: inline-block;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
     color: white;
+    margin-left: 20%;
   }
   .header-input{
     display: inline-block;
-    width: 400px;
-    height:25px;
+    width: 50%;
+    height:50px;
     border-radius: 5px;
-    margin-left: 50px;
-    margin-top: -5px;
+    margin-left: 5%;
+    margin-top: -10px;
   }
   .header-button{
+    float: right;
+    height:50px;
     margin-top: -5px;
-    border-radius: 2px;
-    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    margin-right: 11%;
   }
   .content{
     width: 100%;
     height: 100%;
   }
   .going{
-    margin-left: 250px;
-    margin-top: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
   }
   .going-h1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     color: #000;
   }
   .going-li{
-    height: 30px;
-    line-height: 30px;
-    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    width: 70%;
     background: white;
-    margin-top: 10px;
-    border-left: 8px solid darkslategrey;
-    border-radius: 3px;
+    margin-top: 2%;
+    border-left: 8px solid darkseagreen;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
   }
   .checkbox{
-    margin-left: 20px;
+    margin-left: 2%;
   }
   .p{
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 40%;
   }
   .button{
     float: right;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin-right: 5%;
     background: #25a4bb;
     border-radius: 5px;
     color: white;
     font-size: 10px;
     font-weight: bold;
-    padding: 2px;
+    padding: 5px;
+    margin-top: 10px;
   }
   .haddone-li{
-    height: 30px;
-    line-height: 30px;
-    width: 500px;
-    background: gainsboro;
-    margin-top: 10px;
-    border-left: 8px solid darkolivegreen;
-    border-radius: 3px;
+    height: 60px;
+    line-height: 60px;
+    width: 70%;
+    background: white;
+    margin-top: 2%;
+    border-left: 8px solid darkslategrey;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
   }
   .haddone-button{
     float: right;
-    margin-right: 20px;
-    margin-top: 5px;
-    background: gray;
+    margin-right: 5%;
+    background: #25a4bb;
     border-radius: 5px;
     color: white;
     font-size: 10px;
     font-weight: bold;
-    padding: 2px;
+    padding: 5px;
+    margin-top: 10px;
   }
 </style>
